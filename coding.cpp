@@ -2,6 +2,10 @@
 using namespace std;
 
 int main(){
-	cout << "Abhilash Jha" << endl;
-	cout << "Lovenish";
+    string s = "Abhilash Jha";
+	cout << s << endl;
+	cout << "Lovenish" << endl;
+    for (char ch : s){
+        cout << ch << endl;
+    }
 }
